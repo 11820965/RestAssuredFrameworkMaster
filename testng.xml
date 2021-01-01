@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="RestAssuredFramework" verbose="1" >
+
+<listeners>
+	<listener class-name="Utility.ExtentReportListener"></listener>
+
+</listeners>
+  <test name="SIT">
+    <classes>
+    	<class name="restFramework.Usercheck"/>
+    </classes>
+ </test>
+</suite>

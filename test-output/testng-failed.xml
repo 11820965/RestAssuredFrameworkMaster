@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RestAssuredFramework]">
+  <listeners>
+    <listener class-name="Utility.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="SIT(failed)">
+    <classes>
+      <class name="Usercheck">
+        <methods>
+          <include name="setUP"/>
+          <include name="getEmployeenegative"/>
+        </methods>
+      </class> <!-- Usercheck -->
+    </classes>
+  </test> <!-- SIT(failed) -->
+</suite> <!-- Failed suite [RestAssuredFramework] -->
