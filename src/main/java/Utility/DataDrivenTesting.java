@@ -15,7 +15,7 @@ public class DataDrivenTesting {
 	
 	public Object[][] getData() throws IOException{
 		
-		File file = new File(System.getProperty("user.dir")+"\\src\\main\\java\\testdata\\Book.xlsx");
+		File file = new File(System.getProperty("user.dir")+"\\src\\main\\java\\testdata\\Book1.xlsx");
 		FileInputStream fileInputStream = new FileInputStream(file);
 		
 		XSSFWorkbook workbook = new XSSFWorkbook(fileInputStream);

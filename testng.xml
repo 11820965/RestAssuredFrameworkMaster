@@ -6,7 +6,7 @@
 	<listener class-name="Utility.ExtentReportListener"></listener>
 
 </listeners>
-  <test name="SIT">
+  <test name="SIT" parallel="methods" thread-count="5">
     <classes>
     	<class name="restFramework.Usercheck"/>
     </classes>
