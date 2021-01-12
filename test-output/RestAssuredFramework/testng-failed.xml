@@ -4,14 +4,15 @@
   <listeners>
     <listener class-name="Utility.ExtentReportListener"/>
   </listeners>
-  <test thread-count="5" name="SIT(failed)">
+  <test thread-count="5" name="SIT(failed)" parallel="methods">
     <classes>
-      <class name="Usercheck">
+      <class name="restFramework.Usercheck">
         <methods>
-          <include name="setUP"/>
           <include name="getEmployeenegative"/>
+          <include name="getEmployee"/>
+          <include name="setUP"/>
         </methods>
-      </class> <!-- Usercheck -->
+      </class> <!-- restFramework.Usercheck -->
     </classes>
   </test> <!-- SIT(failed) -->
 </suite> <!-- Failed suite [RestAssuredFramework] -->

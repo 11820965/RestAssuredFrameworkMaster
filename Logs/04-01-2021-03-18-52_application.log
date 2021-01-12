@@ -1,0 +1,146 @@
+2021-01-04 15:18:54,311  INFO [main] Usercheck:27 - Prechecks completed
+2021-01-04 15:18:56,936 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2021-01-04 15:18:57,068 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2021-01-04 15:18:57,139 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-01-04 15:18:57,142 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-01-04 15:18:57,142 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-01-04 15:18:57,256 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-01-04 15:18:57,257 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-01-04 15:18:57,258 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employee/1 HTTP/1.1
+2021-01-04 15:18:57,259 DEBUG [main] wire:73 -  >> "GET /api/v1/employee/1 HTTP/1.1[\r][\n]"
+2021-01-04 15:18:57,262 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-01-04 15:18:57,263 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-01-04 15:18:57,264 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2021-01-04 15:18:57,265 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-01-04 15:18:57,266 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+2021-01-04 15:18:57,267 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-01-04 15:18:57,269 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-01-04 15:18:57,270 DEBUG [main] headers:278 - >> GET /api/v1/employee/1 HTTP/1.1
+2021-01-04 15:18:57,271 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-01-04 15:18:57,272 DEBUG [main] headers:281 - >> Accept: */*
+2021-01-04 15:18:57,272 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2021-01-04 15:18:57,273 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-01-04 15:18:57,274 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+2021-01-04 15:18:57,274 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-01-04 15:18:59,276 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-01-04 15:18:59,285 DEBUG [main] wire:73 -  << "Cache-Control: no-cache, private, max-age=31536000[\r][\n]"
+2021-01-04 15:18:59,287 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2021-01-04 15:18:59,288 DEBUG [main] wire:73 -  << "Date: Mon, 04 Jan 2021 09:48:59 GMT[\r][\n]"
+2021-01-04 15:18:59,289 DEBUG [main] wire:73 -  << "Display: staticcontent_sol[\r][\n]"
+2021-01-04 15:18:59,291 DEBUG [main] wire:73 -  << "Expires: Tue, 04 Jan 2022 09:48:58 GMT[\r][\n]"
+2021-01-04 15:18:59,292 DEBUG [main] wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2021-01-04 15:18:59,293 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2021-01-04 15:18:59,294 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2021-01-04 15:18:59,295 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2021-01-04 15:18:59,296 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2021-01-04 15:18:59,297 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+2021-01-04 15:18:59,299 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2021-01-04 15:18:59,300 DEBUG [main] wire:73 -  << "X-Middleton-Display: staticcontent_sol[\r][\n]"
+2021-01-04 15:18:59,300 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2021-01-04 15:18:59,302 DEBUG [main] wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2021-01-04 15:18:59,303 DEBUG [main] wire:73 -  << "X-Ratelimit-Remaining: 58[\r][\n]"
+2021-01-04 15:18:59,304 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2021-01-04 15:18:59,305 DEBUG [main] wire:73 -  << "Content-Length: 179[\r][\n]"
+2021-01-04 15:18:59,306 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-01-04 15:18:59,309 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-01-04 15:18:59,310 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-01-04 15:18:59,311 DEBUG [main] headers:265 - << Cache-Control: no-cache, private, max-age=31536000
+2021-01-04 15:18:59,312 DEBUG [main] headers:265 - << Content-Type: application/json
+2021-01-04 15:18:59,312 DEBUG [main] headers:265 - << Date: Mon, 04 Jan 2021 09:48:59 GMT
+2021-01-04 15:18:59,313 DEBUG [main] headers:265 - << Display: staticcontent_sol
+2021-01-04 15:18:59,314 DEBUG [main] headers:265 - << Expires: Tue, 04 Jan 2022 09:48:58 GMT
+2021-01-04 15:18:59,314 DEBUG [main] headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2021-01-04 15:18:59,315 DEBUG [main] headers:265 - << Referrer-Policy: 
+2021-01-04 15:18:59,315 DEBUG [main] headers:265 - << Response: 200
+2021-01-04 15:18:59,315 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2021-01-04 15:18:59,316 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+2021-01-04 15:18:59,317 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,Origin
+2021-01-04 15:18:59,318 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2021-01-04 15:18:59,319 DEBUG [main] headers:265 - << X-Middleton-Display: staticcontent_sol
+2021-01-04 15:18:59,319 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2021-01-04 15:18:59,320 DEBUG [main] headers:265 - << X-Ratelimit-Limit: 60
+2021-01-04 15:18:59,320 DEBUG [main] headers:265 - << X-Ratelimit-Remaining: 58
+2021-01-04 15:18:59,321 DEBUG [main] headers:265 - << X-Sol: pub_site
+2021-01-04 15:18:59,321 DEBUG [main] headers:265 - << Content-Length: 179
+2021-01-04 15:18:59,326 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-01-04 15:18:59,349 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json
+2021-01-04 15:18:59,349 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-01-04 15:18:59,368  INFO [main] Usercheck:36 - request sent successfully
+2021-01-04 15:18:59,375 DEBUG [main] wire:87 -  << "{"status":"success","data":{"id":1,"employee_name":"Tiger Nixon","employee_salary":320800,"employee_age":61,"profile_image":""},"message":"Successfully! Record has been fetched."}"
+2021-01-04 15:18:59,376 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7fcbe147
+2021-01-04 15:18:59,377 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-01-04 15:18:59,422 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {}->http://dummy.restapiexample.com:80
+2021-01-04 15:18:59,422 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to dummy.restapiexample.com:80
+2021-01-04 15:18:59,463 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-01-04 15:18:59,463 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-01-04 15:18:59,464 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-01-04 15:18:59,464 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-01-04 15:18:59,464 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-01-04 15:18:59,464 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /api/v1/employee/2 HTTP/1.1
+2021-01-04 15:18:59,465 DEBUG [main] wire:73 -  >> "GET /api/v1/employee/2 HTTP/1.1[\r][\n]"
+2021-01-04 15:18:59,465 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-01-04 15:18:59,465 DEBUG [main] wire:73 -  >> "Accept: */*[\r][\n]"
+2021-01-04 15:18:59,465 DEBUG [main] wire:73 -  >> "Host: dummy.restapiexample.com[\r][\n]"
+2021-01-04 15:18:59,466 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-01-04 15:18:59,466 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)[\r][\n]"
+2021-01-04 15:18:59,466 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-01-04 15:18:59,467 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-01-04 15:18:59,467 DEBUG [main] headers:278 - >> GET /api/v1/employee/2 HTTP/1.1
+2021-01-04 15:18:59,467 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-01-04 15:18:59,468 DEBUG [main] headers:281 - >> Accept: */*
+2021-01-04 15:18:59,468 DEBUG [main] headers:281 - >> Host: dummy.restapiexample.com
+2021-01-04 15:18:59,468 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-01-04 15:18:59,468 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_191)
+2021-01-04 15:18:59,469 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-01-04 15:19:00,442 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-01-04 15:19:00,443 DEBUG [main] wire:73 -  << "Cache-Control: no-cache, private, max-age=31536000[\r][\n]"
+2021-01-04 15:19:00,444 DEBUG [main] wire:73 -  << "Content-Type: application/json[\r][\n]"
+2021-01-04 15:19:00,446 DEBUG [main] wire:73 -  << "Date: Mon, 04 Jan 2021 09:49:00 GMT[\r][\n]"
+2021-01-04 15:19:00,447 DEBUG [main] wire:73 -  << "Display: staticcontent_sol[\r][\n]"
+2021-01-04 15:19:00,448 DEBUG [main] wire:73 -  << "Expires: Tue, 04 Jan 2022 09:49:00 GMT[\r][\n]"
+2021-01-04 15:19:00,449 DEBUG [main] wire:73 -  << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+2021-01-04 15:19:00,450 DEBUG [main] wire:73 -  << "Referrer-Policy: [\r][\n]"
+2021-01-04 15:19:00,452 DEBUG [main] wire:73 -  << "Response: 200[\r][\n]"
+2021-01-04 15:19:00,453 DEBUG [main] wire:73 -  << "Server: nginx/1.16.0[\r][\n]"
+2021-01-04 15:19:00,454 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2021-01-04 15:19:00,454 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+2021-01-04 15:19:00,455 DEBUG [main] wire:73 -  << "X-Ezoic-Cdn: Miss[\r][\n]"
+2021-01-04 15:19:00,456 DEBUG [main] wire:73 -  << "X-Middleton-Display: staticcontent_sol[\r][\n]"
+2021-01-04 15:19:00,456 DEBUG [main] wire:73 -  << "X-Middleton-Response: 200[\r][\n]"
+2021-01-04 15:19:00,457 DEBUG [main] wire:73 -  << "X-Ratelimit-Limit: 60[\r][\n]"
+2021-01-04 15:19:00,458 DEBUG [main] wire:73 -  << "X-Ratelimit-Remaining: 58[\r][\n]"
+2021-01-04 15:19:00,458 DEBUG [main] wire:73 -  << "X-Sol: pub_site[\r][\n]"
+2021-01-04 15:19:00,459 DEBUG [main] wire:73 -  << "Content-Length: 183[\r][\n]"
+2021-01-04 15:19:00,459 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-01-04 15:19:00,460 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-01-04 15:19:00,461 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-01-04 15:19:00,461 DEBUG [main] headers:265 - << Cache-Control: no-cache, private, max-age=31536000
+2021-01-04 15:19:00,461 DEBUG [main] headers:265 - << Content-Type: application/json
+2021-01-04 15:19:00,462 DEBUG [main] headers:265 - << Date: Mon, 04 Jan 2021 09:49:00 GMT
+2021-01-04 15:19:00,462 DEBUG [main] headers:265 - << Display: staticcontent_sol
+2021-01-04 15:19:00,463 DEBUG [main] headers:265 - << Expires: Tue, 04 Jan 2022 09:49:00 GMT
+2021-01-04 15:19:00,463 DEBUG [main] headers:265 - << Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+2021-01-04 15:19:00,463 DEBUG [main] headers:265 - << Referrer-Policy: 
+2021-01-04 15:19:00,464 DEBUG [main] headers:265 - << Response: 200
+2021-01-04 15:19:00,464 DEBUG [main] headers:265 - << Server: nginx/1.16.0
+2021-01-04 15:19:00,464 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+2021-01-04 15:19:00,465 DEBUG [main] headers:265 - << Vary: Accept-Encoding,User-Agent,Origin
+2021-01-04 15:19:00,465 DEBUG [main] headers:265 - << X-Ezoic-Cdn: Miss
+2021-01-04 15:19:00,466 DEBUG [main] headers:265 - << X-Middleton-Display: staticcontent_sol
+2021-01-04 15:19:00,467 DEBUG [main] headers:265 - << X-Middleton-Response: 200
+2021-01-04 15:19:00,467 DEBUG [main] headers:265 - << X-Ratelimit-Limit: 60
+2021-01-04 15:19:00,468 DEBUG [main] headers:265 - << X-Ratelimit-Remaining: 58
+2021-01-04 15:19:00,468 DEBUG [main] headers:265 - << X-Sol: pub_site
+2021-01-04 15:19:00,468 DEBUG [main] headers:265 - << Content-Length: 183
+2021-01-04 15:19:00,469 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-01-04 15:19:00,470 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json
+2021-01-04 15:19:00,471 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-01-04 15:19:00,473  INFO [main] Usercheck:47 - request sent successfully
+2021-01-04 15:19:00,473 DEBUG [main] wire:87 -  << "{"status":"success","data":{"id":2,"employee_name":"Garrett Winters","employee_salary":170750,"employee_age":63,"profile_image":""},"message":"Successfully! Record has been fetched."}"
+2021-01-04 15:19:00,474 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1a1da881
+2021-01-04 15:19:00,474 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
+2021-01-04 15:19:00,560 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_IN", UTF-8, parsed); will try to load it.
+2021-01-04 15:19:00,562 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_IN.ftl"): Not found
+2021-01-04 15:19:00,564 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2021-01-04 15:19:00,566 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2021-01-04 15:19:00,566 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_IN", UTF-8, parsed) from "jar:file:/C:/Users/SRABANTI%20GHOSH/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

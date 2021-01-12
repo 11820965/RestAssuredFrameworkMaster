@@ -84,8 +84,10 @@ public class ExtentReportListener implements ITestListener{
 		
 		
 		try {
-				//String currentTimeString = new SimpleDateFormat("dd-MM-yyyy-HH:mm:ss").format(new Date());
-				File file = new File(dir+"\\Detailed_Report"+"\\extentReport1_"+".html");
+				//never use : in File naming . then it will give sybtax error
+				String currentTimeString = new SimpleDateFormat("dd-MM-yyyy-HH_mm_ss").format(new Date());
+				
+				File file = new File(dir+"\\Detailed_Report"+"\\extentReport_"+currentTimeString+".html");
 				//FileOutputStream fo = new FileOutputStream(file);
 				htmlReporter = new ExtentHtmlReporter(file); 
 						
